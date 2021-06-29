@@ -28,3 +28,18 @@ body{
     position: relative;
     transition: flex 0.7s ease-in;
 }
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px ;
+    margin: o;
+    opacity: 0;
+}
+.panel.active {
+    flex: 5;
+}
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.5s;
+}
