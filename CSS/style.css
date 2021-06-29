@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Castoro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.contener{
+    display: flex;
+    width: 90vh;
+}
+.panel{
+    background-size: auto 100%;
+    background-position: center;
+    height: 80vh;
+    border-radius: 50px;
+    flex: 0.5;
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
